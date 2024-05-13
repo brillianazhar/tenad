@@ -1,0 +1,71 @@
+{
+  "projects": [
+    {
+      "name": "Lpmk",
+      "slug": "lpmk",
+      "year": "2023",
+      "thumb": {
+        "type": "img",
+        "src": "/image/projects/lpmk/thumbnailLPMK.webp"
+      },
+      "imgSrc": [
+        "/image/projects/lpmk/ss_lpmk1.png",
+        "/image/projects/lpmk/ss_lpmk2.png",
+        "/image/projects/lpmk/ss_lpmk3.png"
+      ],
+      "desc": "A personal internship project website with a lecturer. This website is created using native PHP programming language with MySQL as the database. It serves as a platform for interaction between the community and the village office, as well as among members of the community. Citizens can provide suggestions, critiques, and aspirations to the village office.",
+      "color": "#DDB9B6"
+    },
+    {
+      "name": "Spk",
+      "slug": "spk",
+      "year": "2023",
+      "thumb": {
+        "type": "img",
+        "src": "/image/projects/spk/thumbnailSPK.webp"
+      },
+      "imgSrc": [
+        "/image/projects/spk/ss_spk1.png",
+        "/image/projects/spk/ss_spk2.png",
+        "/image/projects/spk/ss_spk3.png",
+        "/image/projects/spk/ss_spk4.png"
+      ],
+      "desc": "A decision support system website from a thesis project. This web is created to assist a hotel slipper manufacturer named Intan Amenities in determining the supplier of hotel slipper sponges based on predefined criteria. This website is built using the PHP programming language with the CodeIgniter4 framework, and MySQL as its database.",
+      "color": "#92D6CD"
+    },
+    {
+      "name": "iAmenities",
+      "slug": "iamenities",
+      "src": "https://portfolio-iamenities.vercel.app/",
+      "year": "2024",
+      "thumb": {
+        "type": "video",
+        "src": "/image/projects/iAmenities/thumbIamenities.mp4"
+      },
+      "imgSrc": [
+        "/image/projects/iAmenities/ss_iamenities1.png",
+        "/image/projects/iAmenities/ss_iamenities2.png",
+        "/image/projects/iAmenities/ss_iamenities3.png"
+      ],
+      "desc": "A personal portfolio for the company profile website of Intan Amenities. This website is built using the React and Tailwind CSS. This website utilizes several libraries such as Framer Motion for the animation, and Swiper for the gallery of image.",
+      "color": "#8CCE8F"
+    },
+    {
+      "name": "Movis",
+      "slug": "movis",
+      "src": "https://portfolio-movis.vercel.app/",
+      "year": "2024",
+      "thumb": {
+        "type": "video",
+        "src": "/image/projects/movis/thumbMovis.mp4"
+      },
+      "imgSrc": [
+        "/image/projects/movis/ss_movis1.png",
+        "/image/projects/movis/ss_movis2.png",
+        "/image/projects/movis/ss_movis3.png"
+      ],
+      "desc": "A personal portfolio website that provides information about movies. The data on this website is retrieved from TheMovieDatabase API. It is built using React, Tailwind CSS, and utilizes React Router for routing. This website utilizes several libraries such as react-youtube, Framer Motion, and Swiper.",
+      "color": "#799CD5"
+    }
+  ]
+}
