@@ -3,6 +3,7 @@ import "@/styles/globals.css";
 import { AnimatePresence } from "framer-motion";
 import Lenis from "lenis";
 import { useEffect } from "react";
+import { Analytics } from "@vercel/analytics/react";
 
 export default function App({ Component, pageProps, router }) {
   useEffect(() => {
@@ -20,6 +21,7 @@ export default function App({ Component, pageProps, router }) {
     <AppShell>
       <AnimatePresence mode="wait">
         <Component {...pageProps} key={router.route} />
+        <Analytics />
       </AnimatePresence>
     </AppShell>
   );
