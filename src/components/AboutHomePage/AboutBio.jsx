@@ -10,7 +10,11 @@ const AboutBio = () => {
   return (
     <div>
       <div className="flex flex-col lg:flex-row items-center justify-between gap-y-10 lg:gap-y-0 my-32 lg:my-52">
-        <Link href={"#"}>
+        <Link
+          href={
+            "https://drive.google.com/file/d/1EDxyGejgwcvoBwfirI3p1kxSGo4dhX5h/view?usp=sharing"
+          }
+        >
           <FramerMagnetic size={160} stiffness={10}>
             <Title w="w-40" h="h-40" bg="bg-primary" text="text-primaryLight">
               Download CV

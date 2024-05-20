@@ -21,7 +21,12 @@ const About = () => {
         >
           More Details
         </Link>
-        <Link href={"#"} className="hover:text-primaryLight transition-all">
+        <Link
+          href={
+            "https://drive.google.com/file/d/1EDxyGejgwcvoBwfirI3p1kxSGo4dhX5h/view?usp=sharing"
+          }
+          className="hover:text-primaryLight transition-all"
+        >
           Download CV
         </Link>
       </div>
