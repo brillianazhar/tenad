@@ -133,7 +133,10 @@ const ProjectList = () => {
                 ></motion.div>
               </Link>
               <div className="flex items-center justify-between w-full">
-                <Link href={"#"} className="text-xl font-bold hover:underline">
+                <Link
+                  href={`/projects/${project.slug}`}
+                  className="text-xl font-bold hover:underline"
+                >
                   {project.name}
                 </Link>
                 <p>Website</p>
